@@ -23,15 +23,15 @@
 .centerNav{flex: 4;}
 .nav{flex: 2;}
 .rightNav{flex: 1;}
-.pipe{font-size: 25px;}
+.navbar a, .pipe{font-size: 15px;}
 .navbar a{color: purple}
 .navbar a:any-link{color: blue}
 .navbar a:hover{color: black}
 
 /* CONTEÚDO */
     section{padding-top: 20px; text-align: justify;}
-    section h1{font-size: 40px;}
-    section p, b{font-size: 30px;}
+    section h1{font-size: 35px;}
+    section p, b{font-size: 15px;}
     section p{padding-top: 10px;}
 /* FOOTER */
-footer{font-size: 30px; font-weight: 800; text-align: center; padding: 50px 0 20px 0;}
+footer{font-size: 20px; font-weight: 800; text-align: center; padding: 50px 0 20px 0;}
