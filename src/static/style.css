@@ -1,0 +1,37 @@
+*{margin: auto; font-size: 20px}
+.flex{display: flex;}
+.startEnd{flex: 1}
+.center{flex: 10;}
+
+/* NAVBAR*/
+.navbar{
+    background-color: white;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+.backgroundNavbar img, .navbar img{padding: 10px 0 10px 0;}
+.navbar hr, .backgroundNavbar hr{
+    background: rgb(56, 63, 93);
+    height: 6px;
+    position:relative;
+}
+.navbar .center, .navbar div{
+    display: flex;
+}
+.centerNav{flex: 4;}
+.nav{flex: 2;}
+.rightNav{flex: 1;}
+.pipe{font-size: 25px;}
+.navbar a{color: purple}
+.navbar a:any-link{color: blue}
+.navbar a:hover{color: black}
+
+/* CONTEÚDO */
+    section{padding-top: 20px; text-align: justify;}
+    section h1{font-size: 40px;}
+    section p, b{font-size: 30px;}
+    section p{padding-top: 10px;}
+/* FOOTER */
+footer{font-size: 30px; font-weight: 800; text-align: center; padding: 50px 0 20px 0;}
