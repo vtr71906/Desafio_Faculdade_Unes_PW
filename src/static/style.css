@@ -29,8 +29,8 @@
 .navbar a:hover{color: black}
 
 /* CONTEÚDO */
-    section{padding-top: 20px; text-align: justify;}
-    section h1{font-size: 35px;}
+    section{text-align: justify;}
+    section h1{font-size: 35px; padding-top: 20px;}
     section p, b{font-size: 15px;}
     section p{padding-top: 10px;}
 /* FOOTER */
