@@ -1,0 +1,5 @@
+/* FORMULÁRIO */
+textarea{resize:both}
+form h1{font-size: 25px; font-weight: 300; padding: 5px;}
+textarea::placeholder, .inputText::placeholder{color: gray; font-size: 20px}
+.inputText, textarea{width: 300px}
