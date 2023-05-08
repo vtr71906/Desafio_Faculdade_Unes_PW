@@ -31,7 +31,7 @@
 /* CONTEÚDO */
     section{text-align: justify;}
     section h1{font-size: 35px; padding-top: 20px;}
-    section p, b{font-size: 15px;}
+    section p, b, li{font-size: 15px;}
     section p{padding-top: 10px;}
 /* FOOTER */
 footer{font-size: 20px; font-weight: 800; text-align: center; padding: 50px 0 20px 0;}
