@@ -11,7 +11,7 @@
 
 # Sobre o Desafio
 
-Deverá ser feito um site semelhante ao protótipo do PDF, encontrado em  ```doc/```, utilizando somente as linguagens de marcação "<a href="https://www.w3schools.com/html/">HTML</a>" e "<a href="https://www.w3schools.com/css/">CSS</a>".
+Deverá ser implementado a tecnologia Flask ao <a href="https://github.com/BrunoSerpa/Desafio_Faculdade_Unes_PW/releases/tag/V1"> desafio anterior</a>, de acordo com o PDF encontrado em  ```doc/```.
 
 ![print_faculdadeUnes](https://github.com/BrunoSerpa/Desafio_Faculdade_Unes_PW/blob/main/Doc/faculdadeUnes.gif?raw=true)
 
