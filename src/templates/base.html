@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>{{ title }}</title>
+        <link rel="stylesheet" href="./../static/style.css">
+        <link rel="stylesheet" href="./../static/normalize.css">
+        {% block linkCss %}{% endblock %}
+    </head>
+    <body>
+        <div class="flex">
+            <div class="startEnd"></div>
+            <div class="center">
+                <!--    Espaçamento Navbar  !-->
+                <nav class="backgroundNavbar">
+                    <hr>
+                    <div>
+                        <img src="./../static/img/logo.png" alt="imagem_logo">
+                    </div>
+                </nav>
+                <!--    Navbar Fixo !-->
+                <nav class="navbar">
+                    <!--    Barra Azul  !-->
+                    <hr>
+                    <div>
+                        <div class="startEnd"></div>
+                        <div class="center">
+                            <img src="./../static/img/logo.png" alt="imagem_logo">
+                            <div class="centerNav"></div>
+                            <div class="nav">
+                                <a {{linksNav[0]}}>Home</a>
+                                <div class="pipe">|</div>
+                                <a {{linksNav[1]}} >Quem Somos</a>
+                                <div class="pipe">|</div>
+                                <a {{linksNav[2]}}>Contato</a>
+                            </div>
+                            <div class="rightNav"></div>
+                        </div>
+                        <div class="startEnd"></div>
+                    </div>
+                </nav>
+                <!--    Conteúdo    !-->
+                {% block content%}{% endblock %}
+                <footer>Todos os direitos reservados</footer>
+            </div>
+            <div class="startEnd"></div>
+        </div>
+    </body>
+</html>
