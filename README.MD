@@ -78,3 +78,7 @@ Deverá ser implementado a tecnologia Flask ao <a href="https://github.com/Bruno
 
 <a href="https://www.w3schools.com/css/">CSS</a>: Estilização de todas as páginas.<br/>
 Foram utilizados tags e classes que mudam de acordo com seu estado.
+
+<a href="https://flask.palletsprojects.com">Flask</a>: Utilizado para fazer auxilio de manutenções, utilizando do arquivo "base.html", no qual apresenta as estruturas padrões de todas as páginas.
+
+<a href="https://git-scm.com">Git</a>: Usado para versionamento.
