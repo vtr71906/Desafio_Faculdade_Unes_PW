@@ -11,7 +11,7 @@
 
 # Sobre o Desafio
 
-Deverá ser implementado a tecnologia Flask ao <a href="https://github.com/BrunoSerpa/Desafio_Faculdade_Unes_PW/releases/tag/V1"> desafio anterior</a>, de acordo com o PDF encontrado em  ```doc/```.
+Deverá ser implementado, através da tecnologia Flask ao <a href="https://github.com/BrunoSerpa/Desafio_Faculdade_Unes_PW/releases/tag/V2"> desafio anterior</a> o `users.html`, que receberá os dados inseridos em `contato.html`.
 
 ![print_faculdadeUnes](https://github.com/BrunoSerpa/Desafio_Faculdade_Unes_PW/blob/main/Doc/faculdadeUnes.gif?raw=true)
 
