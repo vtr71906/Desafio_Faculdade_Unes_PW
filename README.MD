@@ -41,10 +41,33 @@ Deverá ser feito um site semelhante ao protótipo do PDF, encontrado em  ```doc
 
 
 <details>
-  <summary><b>Rodando Desafio</b></summary>
+  <summary><b>Rodando Desafio:</b></summary>
 
-  Execute o arquivo `index.html` em seu navegador padrão. (encontrado na pasta `src/`) 
-  ![print_rodando](https://github.com/BrunoSerpa/Desafio_Faculdade_Unes_PW/blob/main/Doc/rodando.PNG?raw=true)
+  1° Passo: Dentro do Cmd criado em "Clonando o repositório" insira os comandos:
+  
+  `cd src`
+
+  `py -m venv venv`
+  >Caso os comando não funcionar, troque a palavra python do comando  por <b>py3</b>. 
+
+  >> OBS: Se o seu python não for da versão  3.11.2 é possível os comandos não funcionarem. Para instalar a versão desejada <a href="https://www.python.org/downloads/release/python-3112/">Clique Aqui</a> ou vá para o site oficial da linguagem.
+
+  2º Passo: Entre na sua Máquina Virtual com o comando:
+
+  `.\venv\Scripts\activate`
+
+  6º Passo: Instale os requerimentos com o comando:
+
+  `pip install -r requirements.txt`
+
+  7º Passo: Acesse o projeto com o comando:  (Isso executará o `app.py` e será possível ver o site funcional).
+
+  `flask run`
+
+  8º Passo: Quando finalzar insira o comando no cmd: (Isso vai parar o venv)
+
+  `deactivate`
+
 </details>
 
 <span id="ferramentas"></span>
