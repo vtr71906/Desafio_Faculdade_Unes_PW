@@ -13,7 +13,7 @@
 
 Deverá ser feito um site semelhante ao protótipo do PDF, encontrado em  ```doc/```, utilizando somente as linguagens de marcação "<a href="https://www.w3schools.com/html/">HTML</a>" e "<a href="https://www.w3schools.com/css/">CSS</a>".
 
-![print_faculdadeUnes]()
+![print_faculdadeUnes](https://github.com/BrunoSerpa/Desafio_Faculdade_Unes_PW/blob/main/Doc/faculdadeUnes.gif?raw=true)
 
 <span id="comoUsar"></span>
 
@@ -32,7 +32,7 @@ Deverá ser feito um site semelhante ao protótipo do PDF, encontrado em  ```doc
 
   2º Passo: Entre na pasta criada e clique no diretório na parte superior e digite cmd:
 
-  ![print_passo2]()
+  ![print_passo2](https://github.com/BrunoSerpa/Desafio_Faculdade_Unes_PW/blob/main/Doc/Passo2.PNG?raw=true)
 
   3º Passo: Dentro do cmd insira o comando:
  
@@ -44,7 +44,7 @@ Deverá ser feito um site semelhante ao protótipo do PDF, encontrado em  ```doc
   <summary><b>Rodando Desafio</b></summary>
 
   Execute o arquivo `index.html` em seu navegador padrão. (encontrado na pasta `src/`) 
-  ![print_rodando]()
+  ![print_rodando](https://github.com/BrunoSerpa/Desafio_Faculdade_Unes_PW/blob/main/Doc/rodando.PNG?raw=true)
 </details>
 
 <span id="ferramentas"></span>
