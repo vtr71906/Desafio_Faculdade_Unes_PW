@@ -7,17 +7,18 @@
         <h1>Entre em contato</h1>
         <p>Descrição sobre o contato, descrição sobre o contato, descrição sobre o contato, descrição sobre o contato, descrição sobre o contato, descrição sobre o contato.</p>
         <hr/>
-        <form>
+        <form method="post" action="/contato">
             <h1>Seu e-mail:</h1>
-            <input class="inputText" type="email" placeholder="Insira um email">
+            <input class="inputText" type="email" name="email" 
+            placeholder="Insira um email" required >
             <h1>Assunto:</h1>
-            <input class="inputText" type="text" placeholder="Insira um assunto">
+            <input class="inputText" type="text" name="assunto" 
+            placeholder="Insira um assunto" required>
             <h1>Descrição:</h1>
-            <textarea name="Descrição" cols="14" rows="3"
-                placeholder="Insira uma descrição"></textarea>
+            <textarea name="descrição" cols="14" rows="3"
+                placeholder="Insira uma descrição" required></textarea>
             <br/>
-            <input
-            class="inputButton" type="submit" value="Enviar">
+            <input class="inputButton" type="submit" value="Enviar">
         </form>
     </section>
 {% endblock %}
