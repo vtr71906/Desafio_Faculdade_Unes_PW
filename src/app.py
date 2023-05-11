@@ -45,3 +45,17 @@ def contato():
         d='block'
         return render_template("contato.html", title=title, linksNav=linksNav, d=d)
     return render_template("contato.html", title=title, linksNav=linksNav, d=d)
+
+@app.route('/users')
+def users():
+    linksNav=['href=home','href=/quemSomos','href=contato']
+    cur = mysql.connection.cursor()
+
+    users = cur.execute("SELECT * FROM Contato")
+
+    if users > 0:
+        userDetails = cur.fetchall()
+
+        return render_template("users.html", userDetails=userDetails, linksNav=linksNav)
+    else:
+        return 'Nenhum Cadastro encontrado!'
