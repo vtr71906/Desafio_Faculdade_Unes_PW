@@ -1,7 +1,7 @@
 /* CAPA */
 .cover{
-    display:flex;
-    width: 100%;
     background-color: var(--cinza);
 }
-.cover .imgCenter{display: block; width: 100%}
+.cover .imgCenter{
+    display: block;
+}

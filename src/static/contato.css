@@ -1,40 +1,88 @@
 /* FORMULÁRIO */
-textarea{resize:both}
-form h1{font-size: 25px; font-weight: 300; padding: 5px;}
-textarea::placeholder, .inputText::placeholder{color: --cinza; font-size: 20px}
-.inputText, textarea{width: 300px}
+textarea{
+    resize:both
+}
+
+form h1{
+    font-weight: 300
+}
+
+textarea::placeholder,
+.inputText::placeholder{
+    color: var(--cinza)
+}
+
+.inputText,
+textarea{
+    width: 300px
+}
+
+textarea{
+    min-width: 302px;
+    max-width: 302px
+}
+
 /* Pop-UP */
 .popUp{
-    position: fixed;
     background-color: var(--apagado);
-    width: 100%;
     height: 100%;
+    left: 0;
     top: 0;
-    left: 0;}
+    width: 100%
+}
+
 .popUp div{
     background-color: var(--branco);
-    position: relative;
+    border-radius: 10px;
     top: 10px;
-    width: 70%;
-    text-align: center;
-    padding-bottom: 40px;
-    border-radius: 10px;
+    width: 70%
 }
-.popUp div h1{font-size: 30px}
-.x{color: black;
-    float: right;
-    text-decoration: none;
-    padding-top: 10px;
-    padding-right: 10px;
+
+.x{
+    color: var(--preto);
     cursor: pointer;
+    float: right
 }
-.buttonShow, .buttonBackAgain {
+
+.x,
+.buttonShow,
+.buttonBackAgain{
+    text-decoration: none
+}
+
+.buttonShow,
+.buttonBackAgain {
     color: var(--branco);
-    text-decoration: none;
-    font-size: 20px;
     border: var(--preto) solid 2.5px;
-    border-radius: 10px;
-    padding: 0 10%;
+    border-radius: 10px
 }
-.buttonBackAgain{background-color: var(--verde)}
-.buttonShow{background-color: var(--vermelho)}
+
+.buttonBackAgain{
+    background-color: var(--verde)
+}
+.buttonShow{
+    background-color: var(--vermelho)
+}
+
+/* FONT-SIZE E PADDING */
+.popUp div h1{
+    font-size: 30px
+}
+
+form h1{
+    font-size: 25px;
+    padding: 5px
+}
+
+.buttonShow, .buttonBackAgain {
+    padding: 0 10%
+}
+
+.x{
+    padding-top: 10px;
+    padding-right: 10px
+}
+
+.popUp div{
+    padding-bottom: 40px
+}
