@@ -1,38 +1,105 @@
-*{margin: auto; font-size: 20px}
-.flex{display: flex;}
-.startEnd{flex: 1}
-.center{flex: 10;}
+/* CORES */
+:root{
+    --branco: #ffffff;
+    --fundo: #AEF1E5;
+    --azul: #0000ff;
+    --barra: #383f5d;
+    --roxo: #870087;
+    --preto: #000000;
+}
+
+/* GERAIS */
+*{
+    margin: auto
+}
+section{
+    text-align: justify
+}
+
+footer{
+    font-weight: 800;
+    text-align: center
+}
 
 /* NAVBAR*/
 .navbar{
-    background-color: white;
+    background-color: var(--branco);
     left: 0;
     position: fixed;
     top: 0;
     width: 100%
 }
-.backgroundNavbar img, .navbar img{padding: 10px 0 10px 0;}
-.navbar hr, .backgroundNavbar hr{
-    background: rgb(56, 63, 93);
-    height: 6px;
-    position:relative;
-}
-.navbar .center, .navbar div{
-    display: flex;
-}
-.centerNav{flex: 4;}
-.nav{flex: 2;}
-.rightNav{flex: 1;}
-.navbar a, .pipe{font-size: 15px;}
-.navbar a{color: purple}
-.navbar a:any-link{color: blue}
-.navbar a:hover{color: black}
 
-/* CONTEÚDO */
-    section{text-align: justify;}
-    section h1{font-size: 35px; padding-top: 20px;}
-    section p, b, li{font-size: 15px;}
-    section p{padding-top: 10px;}
-    section hr{margin-top: 15px;}
-/* FOOTER */
-footer{font-size: 20px; font-weight: 800; text-align: center; padding: 50px 0 20px 0;}
+.navbar hr,
+.backgroundNavbar hr{
+    background: var(--barra);
+    height: 6px;
+    position:relative
+}
+
+.navbar a{
+    color: var(--roxo)
+}
+
+.navbar a:any-link{
+    color: var(--azul)
+}
+
+.navbar a:hover{
+    color: var(--preto)
+}
+
+/* FLEX */
+.flex,
+.navbar .center,
+.navbar div{
+    display: flex
+}
+
+.startEnd,
+.rightNav{
+    flex: 1
+}
+
+.nav{
+    flex: 2
+}
+
+.centerNav{
+    flex: 4
+}
+
+.center{
+    flex: 10
+}
+
+/* FONT-SIZE E PADDING */
+section p,
+b,
+li,
+.navbar a,
+.pipe{
+    font-size: 15px
+}
+
+*{
+    font-size: 20px
+}
+
+section h1{
+    font-size: 35px;
+    padding-top: 20px
+}
+
+section p{
+    padding-top: 10px
+}
+
+.backgroundNavbar img,
+.navbar img{
+    padding: 10px 0 10px 0
+}
+
+footer{
+    padding: 50px 0 20px 0
+}
