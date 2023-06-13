@@ -63,26 +63,3 @@ textarea{
 .buttonShow{
     background-color: var(--vermelho)
 }
-
-/* FONT-SIZE E PADDING */
-.popUp div h1{
-    font-size: 30px
-}
-
-form h1{
-    font-size: 25px;
-    padding: 5px
-}
-
-.buttonShow, .buttonBackAgain {
-    padding: 0 10%
-}
-
-.x{
-    padding-top: 10px;
-    padding-right: 10px
-}
-
-.popUp div{
-    padding-bottom: 40px
-}

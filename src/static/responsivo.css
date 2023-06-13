@@ -1,0 +1,245 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 480px){
+    .startEnd{
+        flex: 1
+    }
+
+    .center{
+        max-width: 400px;
+        min-width: 300px
+    }
+
+    section hr{
+        margin-top: 20px
+    }
+
+    /* FONT-SIZE E PADDING */
+    section p,
+    b,
+    li,
+    .navbar a,
+    .pipe{
+        font-size: 12px
+    }
+
+    *{
+        font-size: 15px
+    }
+
+    section h1{
+        font-size: 30px;
+        text-align: center;
+        margin: auto;
+        padding: 10px 0 5px 0
+    }
+
+    section p{
+        padding-top: 5px
+    }
+
+    .pipe{
+        padding: 0 10px
+    }
+
+    .backgroundNavbar img,
+    .navbar img{
+        padding: 10px 30px 10px 0;
+        width: 150px
+    }
+
+    /* CONTATO.CSS */
+    .popUp div div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .buttonShow,
+    .buttonBackAgain {
+        width: 200px;
+    }
+
+    footer{
+        padding: 50px 0 20px 0
+    }
+
+    .popUp div div h1{
+        font-size: 40px
+    }
+
+    form{
+        text-align: center;
+    }
+
+    form h1{
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .buttonShow,
+    .buttonBackAgain {
+        padding: 0 10%
+    }
+
+    .x{
+        padding-top: 10px;
+        padding-right: 10px
+    }
+
+    .popUp div{ 
+        padding-bottom: 40px
+    }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px){
+    /* FLEX */
+    .startEnd,
+    .rightNav{
+        flex: 1
+    }
+
+    .nav{
+        flex: 2
+    }
+
+    .centerNav{
+        flex: 4
+    }
+
+    .center{
+        flex: 10
+    }
+
+    /* FONT-SIZE E PADDING */
+    section p,
+    b,
+    li,
+    .navbar a,
+    .pipe{
+        font-size: 15px
+    }
+
+    *{
+        font-size: 20px
+    }
+
+    section h1{
+        font-size: 35px;
+        padding-top: 20px
+    }
+
+    section p{
+        padding-top: 10px
+    }
+
+    .backgroundNavbar img,
+    .navbar img,
+    footer{
+        padding: 10px 0 10px 0
+    }
+}
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    /* FLEX */
+    .startEnd,
+    .rightNav{
+        flex: 1
+    }
+    
+    .nav{
+        flex: 2
+    }
+    
+    .centerNav{
+        flex: 4
+    }
+    
+    .center{
+        flex: 10
+    }
+    
+    /* FONT-SIZE E PADDING */
+    section p,
+    b,
+    li,
+    .navbar a,
+    .pipe{
+        font-size: 15px
+    }
+    
+    *{
+        font-size: 20px
+    }
+    
+    section h1{
+        font-size: 35px;
+        padding-top: 20px
+    }
+    
+    section p{
+        padding-top: 10px
+    }
+    
+    .backgroundNavbar img,
+    .navbar img{
+        padding: 10px 0 10px 0
+    }
+    
+    footer{
+        padding: 50px 0 20px 0
+    }}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+    /* FLEX */
+    .startEnd,
+    .rightNav{
+        flex: 1
+    }
+    
+    .nav{
+        flex: 2
+    }
+    
+    .centerNav{
+        flex: 4
+    }
+    
+    .center{
+        flex: 10
+    }
+    
+    /* FONT-SIZE E PADDING */
+    section p,
+    b,
+    li,
+    .navbar a,
+    .pipe{
+        font-size: 15px
+    }
+    
+    *{
+        font-size: 20px
+    }
+    
+    section h1{
+        font-size: 35px;
+        padding-top: 20px
+    }
+    
+    section p{
+        padding-top: 10px
+    }
+    
+    .backgroundNavbar img,
+    .navbar img{
+        padding: 10px 0 10px 0
+    }
+    
+    footer{
+        padding: 50px 0 20px 0
+    }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {}
