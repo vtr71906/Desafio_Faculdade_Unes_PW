@@ -1,6 +1,9 @@
 {% extends 'base.html' %}
 {% block linkCss %}
     <link rel="stylesheet" href="./../static/contato.css">
+    <script defer>
+        function closeP() {fecha=document.getElementById("popUp").style.display = "none";}
+    </script>
 {% endblock %}
 {% block content %}
     <section>
@@ -21,16 +24,17 @@
             <input class="inputButton" type="submit" value="Enviar">
         </form>
         <!-- Pop-Up -->
-        <div class="popUp" id ="popUp"onclick="closeP()" style= "display:{{ d }}">
+        <div
+        class="popUp" id ="popUp" onclick="closeP()" style="display: {{d}}">
             <div>
                 <a class="x" onclick="closeP()">X</a>
                 <h1>Sucesso!</h1>
-                <a class="buttonBackAgain" href="/contato">Fazer outro cadastro</a>
-                <a class="buttonShow" href="/users">Ver cadastros</a>
+                <div>
+                    <a class="buttonBackAgain" href="/contato">Fazer outro cadastro</a>
+                    <div></div>
+                    <a class="buttonShow" href="/users">Ver cadastros</a>
+                </div>
             </div>
         </div>
-        <script>
-            function closeP() {fecha=document.getElementById("popUp").style.display = "none";}
-        </script>
     </section>
 {% endblock %}
