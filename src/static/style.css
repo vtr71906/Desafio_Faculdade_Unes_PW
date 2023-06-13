@@ -16,9 +16,6 @@
 *{
     margin: auto
 }
-section{
-    text-align: justify
-}
 
 footer{
     font-weight: 800
@@ -31,8 +28,18 @@ footer{
 }
 
 footer,
-.popUp div{
+.popUp div,
+.Tli1,
+.Tli2,
+.Tli3,
+.Cli1,
+.Cli2{
     text-align: center
+}
+
+section,
+.Cli3{
+    text-align: justify
 }
 
 .navbar,
