@@ -177,24 +177,18 @@
 }
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px){
-    /* FLEX */
-    .startEnd,
-    .rightNav{
+    .startEnd{
         flex: 1
     }
-    
-    .nav{
-        flex: 2
-    }
-    
-    .centerNav{
-        flex: 4
-    }
-    
+
     .center{
-        flex: 10
+        width: 80%
     }
-    
+
+    section hr{
+        margin-top: 30px
+    }
+
     /* FONT-SIZE E PADDING */
     section p,
     b,
@@ -207,24 +201,65 @@
     *{
         font-size: 20px
     }
-    
+
     section h1{
         font-size: 35px;
-        padding-top: 20px
+        margin: auto;
+        padding: 10px 0 5px 0
     }
-    
+
     section p{
         padding-top: 10px
     }
-    
+
+    .pipe{
+        padding: 0 10px
+    }
+
     .backgroundNavbar img,
     .navbar img{
-        padding: 10px 0 10px 0
+        padding: 10px 30px 10px 0;
+        width: 150px
     }
+
+    /* CONTATO.CSS */
     
+    .buttonShow,
+    .buttonBackAgain {
+        width: 200px;
+    }
+
     footer{
         padding: 50px 0 20px 0
-    }}
+    }
+
+    .popUp div div h1{
+        font-size: 40px
+    }    
+
+    form{
+            text-align: center;
+        }
+        
+    form h1{
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .buttonShow,
+    .buttonBackAgain {
+        padding: 0 10%
+    }
+    
+    .x{
+        padding-top: 10px;
+        padding-right: 10px
+    }
+
+    .popUp div{ 
+        padding-bottom: 40px
+    }
+}
 
 /* Media Query for Laptops and Desktops */
 @media (min-width: 1025px) and (max-width: 1280px){
