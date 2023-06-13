@@ -5,8 +5,7 @@
     }
 
     .center{
-        max-width: 400px;
-        min-width: 300px
+        width: 90%
     }
 
     section hr{
@@ -21,7 +20,7 @@
     .pipe{
         font-size: 12px
     }
-
+    
     *{
         font-size: 15px
     }
@@ -52,7 +51,7 @@
         display: flex;
         flex-wrap: wrap;
     }
-
+    
     .buttonShow,
     .buttonBackAgain {
         width: 200px;
@@ -64,12 +63,12 @@
 
     .popUp div div h1{
         font-size: 40px
-    }
+    }    
 
     form{
-        text-align: center;
-    }
-
+            text-align: center;
+        }
+        
     form h1{
         font-size: 20px;
         font-weight: 600;
@@ -79,7 +78,7 @@
     .buttonBackAgain {
         padding: 0 10%
     }
-
+    
     .x{
         padding-top: 10px;
         padding-right: 10px
@@ -92,22 +91,16 @@
 
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px){
-    /* FLEX */
-    .startEnd,
-    .rightNav{
+    .startEnd{
         flex: 1
     }
 
-    .nav{
-        flex: 2
-    }
-
-    .centerNav{
-        flex: 4
-    }
-
     .center{
-        flex: 10
+        width: 95%
+    }
+
+    section hr{
+        margin-top: 20px
     }
 
     /* FONT-SIZE E PADDING */
@@ -118,24 +111,68 @@
     .pipe{
         font-size: 15px
     }
-
+    
     *{
-        font-size: 20px
+        font-size: 18px
     }
 
     section h1{
-        font-size: 35px;
-        padding-top: 20px
+        font-size: 30px;
+        text-align: center;
+        margin: auto;
+        padding: 10px 0 5px 0
     }
 
     section p{
-        padding-top: 10px
+        padding-top: 8px
+    }
+
+    .pipe{
+        padding: 0 10px
     }
 
     .backgroundNavbar img,
-    .navbar img,
+    .navbar img{
+        padding: 10px 30px 10px 0;
+        width: 150px
+    }
+
+    /* CONTATO.CSS */
+    
+    .buttonShow,
+    .buttonBackAgain {
+        width: 200px;
+    }
+
     footer{
-        padding: 10px 0 10px 0
+        padding: 50px 0 20px 0
+    }
+
+    .popUp div div h1{
+        font-size: 40px
+    }    
+
+    form{
+            text-align: center;
+        }
+        
+    form h1{
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .buttonShow,
+    .buttonBackAgain {
+        padding: 0 10%
+    }
+    
+    .x{
+        padding-top: 10px;
+        padding-right: 10px
+    }
+
+    .popUp div{ 
+        padding-bottom: 40px
     }
 }
 /* Media Query for Tablets Ipads portrait mode */
@@ -198,7 +235,7 @@
     }
     
     .nav{
-        flex: 2
+        flex: 1
     }
     
     .centerNav{
