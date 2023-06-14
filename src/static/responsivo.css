@@ -340,4 +340,83 @@
 }
 
 /* Media Query for Large screens */
-@media (min-width: 1281px) {}
+@media (min-width: 1281px) {
+    .startEnd{
+        flex: 1
+    }
+
+    .center{
+        width: 85%
+    }
+
+    section hr{
+        margin-top: 32px
+    }
+
+    /* FONT-SIZE E PADDING */
+    section p,
+    b,
+    li,
+    .navbar a,
+    .pipe{
+        font-size: 18px
+    }
+    
+    *{
+        font-size: 22px
+    }
+
+    section h1{
+        font-size: 38px;
+        margin: auto;
+        padding: 20px 0 5px 0
+    }
+
+    section p{
+        padding-top: 12px
+    }
+
+    .pipe{
+        padding: 0 10px
+    }
+
+    .backgroundNavbar img,
+    .navbar img{
+        padding: 10px 30px 10px 0;
+        width: 240px
+    }
+
+    /* CONTATO.CSS */
+    
+    .buttonShow,
+    .buttonBackAgain {
+        width: 200px;
+    }
+
+    footer{
+        padding: 50px 0 20px 0
+    }
+
+    .popUp div div h1{
+        font-size: 40px
+    }    
+        
+    form h1{
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .buttonShow,
+    .buttonBackAgain {
+        padding: 0 10%
+    }
+    
+    .x{
+        padding-top: 10px;
+        padding-right: 10px
+    }
+
+    .popUp div{ 
+        padding-bottom: 40px
+    }
+}
