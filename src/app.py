@@ -13,7 +13,7 @@ mysql = MySQL(app)
 
 @app.route("/")
 def home():
-    title="Bem Vindo!!"
+    title="Mal vindo"
     linksNav=['','href=quemSomos','href=contato']
     return render_template("index.html", title=title, linksNav=linksNav)
 
